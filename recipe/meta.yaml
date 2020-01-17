@@ -1,5 +1,5 @@
 {% set name = "construct" %}
-{% set version = "2.9.45" %}
+{% set version = "2.9.49" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2271a0efd0798679dea825ff47e22a4c550456a5db0ba8baa82f7eae0af0118c
+  sha256: 0005a2e1254e16dd0be61c02acb201c938d1a2a952e1bc939a9beb7ef0ce65e8
 
 build:
   noarch: python
