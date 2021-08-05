@@ -1,5 +1,5 @@
 {% set name = "construct" %}
-{% set version = "2.9.45" %}
+{% set version = "2.10.67" %}
 
 package:
   name: "{{ name|lower }}"
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2271a0efd0798679dea825ff47e22a4c550456a5db0ba8baa82f7eae0af0118c
+  sha256: 730235fedf4f2fee5cfadda1d14b83ef1bf23790fb1cc579073e10f70a050883
 
 build:
   noarch: python
@@ -17,9 +17,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
@@ -36,3 +36,4 @@ about:
 extra:
   recipe-maintainers:
     - DominicAntonacci
+    - kevinheavey
