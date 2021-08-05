@@ -116,4 +116,5 @@ Feedstock Maintainers
 =====================
 
 * [@DominicAntonacci](https://github.com/DominicAntonacci/)
+* [@kevinheavey](https://github.com/kevinheavey/)
 
